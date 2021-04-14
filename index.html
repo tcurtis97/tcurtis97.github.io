@@ -1,258 +1,511 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Tims Personal Website</title>
-    <link rel="stylesheet" href="./styles/main.css" />
-    <script
-      src="https://kit.fontawesome.com/2b2f9d8701.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
 
-  <body>
-    <header class="navBar"></header>
-    <main id="container">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8">
+    <title>Personal site</title>
+
+    <!-- ====== Google Fonts ====== -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
+
+    <!-- ====== ALL CSS ====== -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/lightbox.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar-nav">
     
-        <section class="home">
-      <h1 class="name">
-        My name is William Curtis, and I'm a full stack web developer.
-      </h1>
-      <div class="links">
-        <ul class="icons">
-          <li><i class="far fa-file"></i></li>
-          <li>
-            <a href="https://github.com/tcurtis97"
-              ><i class="fab fa-github"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/william-t-curtis/"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-          </li>
-          <li><i class="far fa-envelope"></i></li>
-        </ul>
-      </div>
+     <!-- Preloader -->
+    <div class="preloader">
+        <div class="spinner">
+            <div class="cube1"></div>
+            <div class="cube2"></div>
+        </div>
+    </div>
+    <!-- // Preloader -->
+    
+
+    <!-- ====== Header ====== -->
+    <header id="header" class="header">
+        <!-- ====== Navbar ====== -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <!-- Logo -->
+                <!-- <a class="navbar-brand logo" href="index.html">
+                    <img src="assets/images/logo.png" alt="logo">
+                </a> -->
+                <!-- // Logo -->
+
+                <!-- Mobile Menu -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false"><span><i class="fa fa-bars"></i></span></button>
+                <!-- Mobile Menu -->
+
+                <div class="collapse navbar-collapse main-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a class="nav-link" href="#home">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
+                        <li class="nav-item"><a class="nav-link pr0" href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- ====== // Navbar ====== -->
+    </header>
+    <!-- ====== // Header ====== -->
+
+    <div class="hero-aria" id="home">
+      
+        <div class="container">
+            <div class="hero-content h-100">
+                <div class="d-table">
+                    <div class="d-table-cell">
+                        <h2 class="text-uppercase">Tim Curtis</h2>
+                        <h3 class="text-uppercase"><span class="typed"></span></h3>
+                        
+                        <a href="#about" class="button smooth-scroll">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-area-slids owl-carousel">
+            <div class="single-slider">
+               
+                <div class="slider-bg" style="background-image: url(assets/images/portfolio/image0.jpeg);background-position: right;background-size: 50%;background-repeat: no-repeat;"></div>
+              
+            </div>
+            <div class="single-slider">
+                <!-- Single Background -->
+                <div class="slider-bg" style="background-image: url(assets/images/portfolio/IMG_0400.JPG);background-position: right;background-size: 50%;background-repeat: no-repeat;"></div>
+                <!-- // Single Background -->
+            </div>
+        </div>
+        <!-- // Hero Area Slider -->
+    </div>
+    <!-- ====== //Hero Area ====== -->
+
+   
+  
+
+    <!-- ====== About Area ====== -->
+    <section id="about" class="section-padding about-area bg-light">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="row justify-content-center">
+                <div class="col-lg-6 ">
+                    <div class="section-title text-center">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- //Section Title -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-bg" style="background-image:url(assets/images/portfolio/image1.jpeg)">
+                        <!-- Social Link -->
+                        <div class="social-aria">
+                            <a target="_blank" href="https://github.com/tcurtis97"><i class="fab fa-github"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/william-t-curtis/"><i class="fab fa-linkedin"></i></a>
+                            <a target="_blank" href="assets/images/WilliamCurtisresume.pdf"><i class="far fa-file"></i></a>
+                            <a target="_blank" href="mailto:timcurtis619@gmail.com"><i class="far fa-envelope"></i></a>
+                        
+                        </div>
+                        <!-- // Social Link -->
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h2>Hello, I am <span>Tim</span></h2>
+                        <h4>Full Stack Web Developer</h4>
+                        <p>Prior to beginning my journey in software development, I worked as a tradesman. I enjoyed working in a field that allowed me to use my skills to build structures and systems people used in their everyday life. It allowed me to solve complex problems using logic while working in a team environment. I enjoy working in a field that lets me hone my skills, but there will always be something new to learn or a new problem to solve. When a friend introduced me to software development, I realized that the tech field would allow me to experience the same fullfillment and work I enjoyed, while not being so physically wearing on my body. This started my love of software that has continued to grow with every new technology I encounter.
+                        </p>
+
+                      
+                        <!-- //Skill Area -->
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    
-    
-    <section class="aboutMe"
+    <!-- ====== // About Area ====== -->
+
+
+   
+
+    <!-- ====== Service Section ====== -->
+
+
+            <section class="tech">
+                <h1 class="techTitle">Technologies</h1>
+                <div class="techContainer">
+                    <div class="techIcons">
+                        <a href="https://www.javascript.com/" target="_blank"
+                        ><img
+                        class="techs"
+                        src="Images/javascript.png"
+                        alt="JavaScript"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="JavaScript"
+                        /></a>
+                    </div>
+                    <div class="techIconsReact">
+                        <a href="https://reactjs.org/" target="_blank"
+                        ><img
+                        class="techs"
+                        src="Images/react.png"
+                        alt="React"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="React"
+                        /></a>
+                    </div>
+                    <div class="techIcons">
+                      <a
+                        href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+                        target="_blank"
+                        ><img
+                          class="techs"
+                          src="Images/html5.png"
+                          alt="HTML5"
+                          data-toggle="tooltip"
+                          data-placement="top"
+                          title="HTML5"
+                      /></a>
+                    </div>
+                    <div class="techIcons">
+                      <a
+                        href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
+                        target="_blank"
+                        ><img
+                          class="techs"
+                          src="Images/css3.png"
+                          alt="CSS3"
+                          data-toggle="tooltip"
+                          data-placement="top"
+                          title="CSS3"
+                      /></a>
+                    </div>
+                    <div class="techIcons">
+                      <a href="https://getbootstrap.com/" target="_blank"
+                        ><img
+                          style="border-radius: 13px"
+                          class="techs"
+                          src="Images/bootstrap.png"
+                          alt="Bootstrap"
+                          data-toggle="tooltip"
+                          data-placement="top"
+                          title="Bootstrap"
+                      /></a>
+                    </div>
+                    <div class="techIcons">
+                        <a href="https://git-scm.com" target="_blank"
+                        ><img
+                        class="techs"
+                        src="Images/git.png"
+                        alt="Git"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Git"
+                        /></a>
+                    </div>
+                    <div class="techIcons">
+                    <a href="https://github.com/" target="_blank"
+                      ><img
+                        class="techs"
+                        src="Images/github.png"
+                        alt="Github"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Github"
+                    /></a>
+                  </div>
+                  <div class="techIcons">
+                    <a href="https://www.npmjs.com/" target="_blank"
+                      ><img
+                        class="techs"
+                        src="Images/npm.png"
+                        alt="NPM"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="NPM"
+                    /></a>
+                  </div>
+                  <div class="techIcons">
+                    <a
+                      href="https://www.microsoft.com/en-us/sql-server/sql-server-2017"
+                      target="_blank"
+                      ><img
+                        class="techs"
+                        src="Images/sqlserver.png"
+                        alt="SQL Server"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="SQL Server"
+                    /></a>
+                  </div>
+                  <div class="techIcons">
+                    <a href="https://code.visualstudio.com/" target="_blank"
+                      ><img
+                        class="techs"
+                        src="Images/vsc.png"
+                        alt="Visual Studio Code"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Visual Studio Code"
+                    /></a>
+                  </div>
+                  <div class="techIcons">
+                    <a
+                      href="https://docs.microsoft.com/en-us/dotnet/csharp/"
+                      target="_blank"
+                      ><img
+                        class="techs"
+                        src="Images/csharp.png"
+                        alt="C#"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="C#"
+                    /></a>
+                  </div>
+                  <div class="techIcons">
+                    <a href="https://www.microsoft.com/net/" target="_blank"
+                      ><img
+                        class="techs"
+                        src="Images/dotnetcore.png"
+                        alt=".NET Core"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title=".NET Core"
+                    /></a>
+                  </div>
+                  <div class="techIcons">
+                    <a href="https://www.visualstudio.com/vs/" target="_blank"
+                      ><img
+                        class="techs"
+                        src="Images/visualstudio.png"
+                        alt="Visual Studio"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Visual Studio"
+                    /></a>
+                  </div>
+                  <div class="techIcons">
+                    <a href="https://www.asp.net/mvc" target="_blank"
+                      ><img
+                        class="techs"
+                        src="Images/aspnetMVC.png"
+                        alt=".Net MVC"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title=".Net MVC"
+                    /></a>
+                  </div>
+                  <div class="techIcons">
+                    <a href="https://eslint.org/" target="_blank"
+                      ><img
+                        class="techs"
+                        src="Images/eslint.png"
+                        alt="ES lint"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="ES lint"
+                    /></a>
+                  </div>
+                  <div class="techIcons">
+                    <a href="https://www.postman.com/" target="_blank"
+                      ><img
+                        class="techs"
+                        src="Images/postman.png"
+                        alt="Postman"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Postman"
+                    /></a>
+                  </div>
+                  <div class="techIcons">
+                    <a href="https://dbdiagram.io/home" target="_blank"
+                      ><img
+                        class="techs"
+                        src="Images/dbdiagram.png"
+                        alt="DbDiagram"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="DbDiagram"
+                    /></a>
+                  </div>
+                  <div class="techIcons">
+                    <a href="https://www.json.org/json-en.html" target="_blank"
+                      ><img
+                        class="techs"
+                        src="Images/json.png"
+                        alt="JSON"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="JSON"
+                    /></a>
+                  </div>
+                </div>
+              </section>
+    </section>
+    <!-- ====== //Service Section ====== -->
 
     
-    <section class="tech">
-      <h1 class="techTitle">Technologies</h1>
-      <div class="techContainer">
-        <div class="techIcons">
-          <a href="https://www.javascript.com/" target="_blank"
-            ><img
-              class="techs"
-              src="images/javascript.png"
-              alt="JavaScript"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="JavaScript"
-          /></a>
+
+    <!-- ====== Portfolio Section ====== -->
+    <section id="portfolio" class="section-padding pb-85 portfolio-area bg-light">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="row justify-content-center">
+                <div class="col-lg-6 ">
+                    <div class="section-title text-center">
+                        <h2>Portfolio</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- //Section Title -->
+            <div class="row justify-content-center">
+                <!-- Work List Menu-->
+                <div class="col-lg-8">
+                    <div class="work-list text-center">
+                        <ul>
+                            <li class="filter" class="active" data-filter="all">ALL</li>
+                            <li class="filter" data-filter=".front">Front End</li>
+                            <li class="filter" data-filter=".back">Back End</li>
+                            <li class="filter" data-filter=".group">Group</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- // Work List Menu -->
+            </div>
+            <div class="row portfolio">
+                <!-- Single Portfolio -->
+                <div class="col-lg-4 col-md-6 mix front">
+                    <div class="single-portfolio" style="background-image: url(Images/PennyPinchLogo.png)">
+                        <div class="portfolio-icon text-center">
+                            <a data-lightbox='lightbox' href="Images/PennyPinchLogo.png"><i class="fas fa-expand-arrows-alt"></i></a>
+                            
+                        </div>
+                        <div class="portfolio-hover">
+                            <h4>Penny Pinch </h4>
+                            <a href="https://github.com/tcurtis97/nssCapstone-PennyPinch" class="button">View Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- // Single Portfolio -->
+                <!-- Single Portfolio -->
+                <div class="col-lg-4 col-md-6 mix back">
+                    <div class="single-portfolio" style="background-image: url(assets/images/construction.jpg)">
+                        <div class="portfolio-icon text-center">
+                            <a data-lightbox='lightbox' href="assets/images/construction.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                        </div>
+                        <div class="portfolio-hover">
+                            <h4>Project <span>Name</span></h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- // Single Portfolio -->
+               
+            </div>
         </div>
-        <div class="techIcons">
-          <a href="https://reactjs.org/" target="_blank"
-            ><img
-              class="techs"
-              src="images/react.png"
-              alt="React"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="React"
-          /></a>
-        </div>
-        <div class="techIcons">
-          <a href="https://git-scm.com" target="_blank"
-            ><img
-              class="techs"
-              src="images/git.png"
-              alt="Git"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="Git"
-          /></a>
-        </div>
-        <div class="techIcons">
-          <a href="https://github.com/" target="_blank"
-            ><img
-              class="techs"
-              src="images/github.png"
-              alt="Github"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="Github"
-          /></a>
-        </div>
-        <div class="techIcons">
-          <a
-            href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
-            target="_blank"
-            ><img
-              class="techs"
-              src="images/html5.png"
-              alt="HTML5"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="HTML5"
-          /></a>
-        </div>
-        <div class="techIcons">
-          <a
-            href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
-            target="_blank"
-            ><img
-              class="techs"
-              src="images/css3.png"
-              alt="CSS3"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="CSS3"
-          /></a>
-        </div>
-        <div class="techIcons">
-          <a href="https://getbootstrap.com/" target="_blank"
-            ><img
-              style="border-radius: 13px"
-              class="techs"
-              src="images/bootstrap.png"
-              alt="Bootstrap"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="Bootstrap"
-          /></a>
-        </div>
-        <div class="techIcons">
-          <a href="https://www.npmjs.com/" target="_blank"
-            ><img
-              class="techs"
-              src="images/npm.png"
-              alt="NPM"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="NPM"
-          /></a>
-        </div>
-        <div class="techIcons">
-          <a
-            href="https://www.microsoft.com/en-us/sql-server/sql-server-2017"
-            target="_blank"
-            ><img
-              class="techs"
-              src="images/sqlserver.png"
-              alt="SQL Server"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="SQL Server"
-          /></a>
-        </div>
-        <div class="techIcons">
-          <a href="https://code.visualstudio.com/" target="_blank"
-            ><img
-              class="techs"
-              src="images/vsc.png"
-              alt="Visual Studio Code"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="Visual Studio Code"
-          /></a>
-        </div>
-        <div class="techIcons">
-          <a
-            href="https://docs.microsoft.com/en-us/dotnet/csharp/"
-            target="_blank"
-            ><img
-              class="techs"
-              src="images/csharp.png"
-              alt="C#"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="C#"
-          /></a>
-        </div>
-        <div class="techIcons">
-          <a href="https://www.microsoft.com/net/" target="_blank"
-            ><img
-              class="techs"
-              src="images/dotnetcore.png"
-              alt=".NET Core"
-              data-toggle="tooltip"
-              data-placement="top"
-              title=".NET Core"
-          /></a>
-        </div>
-        <div class="techIcons">
-          <a href="https://www.visualstudio.com/vs/" target="_blank"
-            ><img
-              class="techs"
-              src="images/visualstudio.png"
-              alt="Visual Studio"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="Visual Studio"
-          /></a>
-        </div>
-        <div class="techIcons">
-          <a href="https://www.asp.net/mvc" target="_blank"
-            ><img
-              class="techs"
-              src="images/aspnetMVC.png"
-              alt=".Net MVC"
-              data-toggle="tooltip"
-              data-placement="top"
-              title=".Net MVC"
-          /></a>
-        </div>
-        <div class="techIcons">
-          <a href="https://eslint.org/" target="_blank"
-            ><img
-              class="techs"
-              src="images/eslint.png"
-              alt="ES lint"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="ES lint"
-          /></a>
-        </div>
-        <div class="techIcons">
-          <a href="https://www.postman.com/" target="_blank"
-            ><img
-              class="techs"
-              src="images/postman.png"
-              alt="Postman"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="Postman"
-          /></a>
-        </div>
-        <div class="techIcons">
-          <a href="https://dbdiagram.io/home" target="_blank"
-            ><img
-              class="techs"
-              src="images/dbdiagram.png"
-              alt="DbDiagram"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="DbDiagram"
-          /></a>
-        </div>
-        <div class="techIcons">
-          <a href="https://www.json.org/json-en.html" target="_blank"
-            ><img
-              class="techs"
-              src="images/json.png"
-              alt="JSON"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="JSON"
-          /></a>
-        </div>
-      </div>
     </section>
-    <script type="module" src="./scripts/main.js"></script>
-</main>
-  </body>
+    <!-- ====== // Portfolio Section ====== -->
+
+  
+
+    
+
+
+    
+
+    
+
+
+    <!-- ====== Call to Action Area ====== -->
+    <section class="section-padding call-to-action-aria bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <h2>Technical Resume</h2>
+                
+                </div>
+                <div class="col-lg-3">
+                    <div class="cta-button">
+                        <div class="d-table">
+                            <div class="d-table-cell">
+                                <a href="assets/images/WilliamCurtisresume.pdf" class="button">Download</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== // Call to Action Area ====== -->
+
+
+
+    <!-- ====== Contact Area ====== -->
+    <section id="contact" class="section-padding contact-section bg-light">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="row justify-content-center">
+                <div class="col-lg-6 ">
+                    <div class="section-title text-center">
+                        <h2>Contact Me</h2>
+                       
+                    </div>
+                </div>
+            </div>
+            <!-- //Section Title -->
+
+            <!-- Contact Form -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <ul>
+                        <li><i class="ti-mobile" href="tel:9312650796"></i><i class="fas fa-phone"></i> +1 931 265 0796</li>
+                        <a style="color:#333333" href="mailto:timcurtis619@gmail.com"><li><i class="ti-email"></i><i class="far fa-envelope"></i> timcurtis619@gmail.com</li></a>
+                        <a style="color:#333333" href="https://github.com/tcurtis97"><li><i class="ti-github"></i><i class="fab fa-github"></i>https://github.com/tcurtis97</li></a>
+                        <a style="color:#333333" href="https://www.linkedin.com/in/william-t-curtis/" target="_blank">
+                            <li><i class="ti-linkedin"></i><i class="fab fa-linkedin"></i>https://www.linkedin.com/in/mosilvera/</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <!-- // Contact Form -->
+        </div>
+    </section>
+    <!-- ====== // Contact Area ====== -->
+
+
+    
+
+
+
+
+
+     <!-- ====== ALL JS ====== -->
+   <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/lightbox.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.mixitup.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/typed.js"></script>
+    <script src="assets/js/skill.bar.js"></script>
+    <script src="assets/js/fact.counter.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
